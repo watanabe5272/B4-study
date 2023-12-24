@@ -1,11 +1,11 @@
 # B4-study
 These Python programs are designed to perform data analysis studies on my solar wind velocity model, the "DCHB model".
-They require the following observation data as input
+They require the following observation data as input. 
+However, we do not have those observation data in this repository.
   - solar wind velocity observed by the IPS radio telescope
   - photospheric magnetic field observed by the telescopes (KPVT/SPM, SOLIS/VSM, GONG)
   - coronal magnetic field calculated by the PFSS model
-  - extreme ultraviolet images of coronal holes observed by the satellites (SDO/EIT, SOHO/HMI)
-However, we do not have those observation data in this repository.
+  - extreme ultraviolet images of coronal holes observed by the satellites (SDO/EIT, SOHO/HMI).
 
 My original implementation is as follows
   - A program that executes the DCHB model to calculates solar wind velocity from the 3D structure of the coronal magnetic field by the PFSS model and outputs a color map.
